@@ -1,0 +1,7 @@
+[package]
+name = "tiny_keccak_ffi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tiny-keccak = { version = "2.0", features = ["keccak"] }
