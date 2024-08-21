@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "cargo"
+    directory: "src/native/tiny_keccak_ffi"
+    schedule:
+      interval: "daily"
+    target-branch: "develop"
